@@ -1,0 +1,82 @@
+/* Full page center */
+
+body{
+margin:0;
+min-height:100vh;
+background-image:url("tvkbg.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+position:relative;
+
+}
+
+
+/* Card style */
+.card{
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+/* hover effect */
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* logo image */
+.card img{
+    max-height: 80px;
+    object-fit: contain;
+}
+
+/* tamil title */
+h1{
+    font-weight: 700;
+}
+
+/* input box */
+.form-control{
+    border-radius: 30px;
+    padding: 10px 15px;
+  
+}
+
+/* focus effect */
+.form-control:focus{
+    box-shadow: none;
+    border-color: black;
+}
+
+/* button style */
+.btn{
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* button hover */
+.btn:hover{
+    transform: scale(1.03);
+}
+
+/* mobile spacing */
+@media(max-width:576px){
+
+.card{
+    padding:20px;
+}
+
+h1{
+    font-size:28px;
+}
+
+
+}
+.container
+{
+  opacity: 0.91;  
+}
